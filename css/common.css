@@ -231,7 +231,7 @@ transition: 0.2s ease-in-out;
     padding: 5px 25px;
     padding-bottom: 20px;
     background-color: #d3beff;
-    border-radius: 30px;
+    border-radius: 15px;
     margin:auto;
     margin-left: 10%;
     -webkit-box-shadow: 12px 8px 25px -10px rgba(0, 0, 0, 0.381);
@@ -357,7 +357,7 @@ max-width: 70%;
 
 .carusel1{
     max-height: 500px;
-    border-radius: 25px;
+    border-radius: 15px;
     margin-left: auto;
     margin-top: 45px;
     justify-content: center;
@@ -406,7 +406,6 @@ max-width: 500px;
 
 .skewed {
     position: relative;
-    top: 50px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -442,6 +441,7 @@ max-width: 450px;
 
 @media (max-width:1000px) {
     .skewed{
+      top: 50px;
         height: 1100px;
     }
     .calumea{
@@ -457,8 +457,14 @@ max-width: 450px;
     .direct-contact-container{
         margin-top: 100px;
         left: 0px;
-    }
-    
+    }   
+}
+
+@media (max-width:550px){
+  iframe{
+    max-width: 300px;
+    max-height: 350px;
+  }
 }
 
 /* Begin Right Contact Page */
@@ -574,7 +580,7 @@ max-width: 450px;
   }
   
   .social-media-list li:hover a {
-    color: #000;
+    color: #d3beff;
   }
 
   hr {

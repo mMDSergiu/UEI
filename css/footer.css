@@ -1,13 +1,18 @@
 footer {
     background-color: #5e66cb;
     padding: 3em 4em 2em;
-    margin-top: 180px;
+    margin-top: 160px;
+    -webkit-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
+position: relative;
+z-index: 1;
 }
 
     footer .logo {
         color:#fff;
         font-size: 28px;
-        font-family: roboto;
+        font-family: "Poppins", sans-serif;
     }
 
     footer .row {
@@ -147,7 +152,7 @@ footer {
         }
 
         .social-links a:hover, .social-links a:focus {
-            background-color: #212121;
+            background-color: #d3beff;
         }
 
             .social-links a i {

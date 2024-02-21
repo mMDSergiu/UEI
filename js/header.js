@@ -142,7 +142,7 @@ document.getElementById('header').innerHTML = `
             <span class="lang-element ru" style="display: none;">Лиомоторные адаптации</span>
             </a>
             <a class="links" href="${mainUrl}#AnchorRecenzii">
-                    <span class="lang-element ro">Echipamente Asestive</span>
+                    <span class="lang-element ro">Echipamente Asistive</span>
                     <span class="lang-element en" style="display: none;">Equipment Assertive</span>
                     <span class="lang-element ru" style="display: none;">Оборудование  Напористый</span>
                     </a>
@@ -325,7 +325,7 @@ document.getElementById('header').innerHTML = `
                     <span class="lang-element ru" style="display: none;">Лиомоторные адаптации</span>
                     </a>
                     <a class="links" href="${mainUrl}#AnchorRecenzii">
-                            <span class="lang-element ro">Echipamente Asestive</span>
+                            <span class="lang-element ro">Echipamente Asistive</span>
                             <span class="lang-element en" style="display: none;">Equipment Assertive</span>
                             <span class="lang-element ru" style="display: none;">Оборудование  Напористый</span>
                             </a>
