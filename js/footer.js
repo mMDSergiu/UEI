@@ -1,5 +1,14 @@
 const isHomeFooter = document.getElementById('footer1').getAttribute('data-page') === 'home1';
-const mainUrlFooter = isHomeFooter ? '' : '../Index.html';
+const mainUrlFooter = isHomeFooter ? '' : './../../index.html';
+
+const isHomeFooter1 = document.getElementById('footer1').getAttribute('data-page') === 'home1';
+const mainUrlFoote1r = isHomeFooter ? '' : '.';
+
+const isHomeFooter2 = document.getElementById('footer1').getAttribute('data-page') === 'home1';
+const mainUrlFooter2 = isHomeFooter ? '' : './../.';
+
+
+
 
 
 
@@ -29,9 +38,9 @@ document.getElementById('footer1').innerHTML = `
                        <span class="lang-element en" style="display: none;"><li><a href=""><span>Questionnaires</span></a></li></span>
                        <span class="lang-element ru" style="display: none;"><li><a href=""><span>Aнкеты</span></a></li></span>
 
-                       <span class="lang-element ro"><li><a href=""><span>Întrebări Frecvente</span></a></li></span>
-                       <span class="lang-element en" style="display: none;"><li><a href=""><span>Frequent questions</span></a></li></span>
-                       <span class="lang-element ru" style="display: none;"><li><a href=""><span>Частые вопросы</span></a></li></span>
+                       <span class="lang-element ro"><li><a href="${mainUrlFooter}./pages/Despre Noi/FAQ.html"><span>Întrebări Frecvente</span></a></li></span>
+                       <span class="lang-element en" style="display: none;"><li><a href="${mainUrlFooter}./pages/Despre Noi/FAQ.html"><span>Frequent questions</span></a></li></span>
+                       <span class="lang-element ru" style="display: none;"><li><a href="${mainUrlFooter}./pages/Despre Noi/FAQ.html"><span>Частые вопросы</span></a></li></span>
                    </ul>
                </div>
                <div class="col-3">

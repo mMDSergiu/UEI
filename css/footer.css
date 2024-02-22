@@ -1,7 +1,7 @@
 footer {
     background-color: #5e66cb;
     padding: 3em 4em 2em;
-    margin-top: 160px;
+
     -webkit-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
@@ -320,9 +320,7 @@ z-index: 1;
 /* iPads (landscape) ----------- */  
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {  
     
-    section {
-        padding-bottom: 3em;
-    }
+  
 
     .sec-heading {
         padding:1em 0;
