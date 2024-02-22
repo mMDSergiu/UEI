@@ -26,7 +26,7 @@ document.getElementById('header').innerHTML = `
 </div>
 
 <div id="div2">
-    <nav class="navbar">
+    <nav class="Second">
     <div class="content">
       
       <ul class="menu-list">
@@ -454,9 +454,9 @@ var icon = document.getElementById("icon-bulb1");
 icon.onclick = function () {  
   document.body.classList.toggle("white-theme");
   if (document.body.classList.contains("white-theme")) {
-    icon.src = `${mainUrl1}./img/Special/BulbOn.png`;
+    icon.src = `${mainUrl1}./img/Special/BulbOn1.png`;
   } else {
-    icon.src = `${mainUrl1}./img/Special/BulbOff.png`;
+    icon.src = `${mainUrl1}./img/Special/BulbOff1.png`;
   }
 }
 
@@ -464,54 +464,119 @@ var icon = document.getElementById("icon-bulb2");
 icon.onclick = function () {  
   document.body.classList.toggle("white-theme");
   if (document.body.classList.contains("white-theme")) {
-    icon.src = `${mainUrl1}./img/Special/BulbOn.png`;
+    icon.src = `${mainUrl1}./img/Special/BulbOn1.png`;
   } else {
-    icon.src = `${mainUrl1}./img/Special/BulbOff.png`;
+    icon.src = `${mainUrl1}./img/Special/BulbOff1.png`;
   }
 }
 
 
 const body = document.querySelector("body");
 const navbar = document.querySelector(".navbar");
+const Second = document.querySelector(".Second");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
 menuBtn.onclick = () => {
   navbar.classList.add("show");
+  Second.classList.add("show");
   menuBtn.classList.add("hide");
   body.classList.add("disabled");
 }
 cancelBtn.onclick = () => {
   body.classList.remove("disabled");
   navbar.classList.remove("show");
+  Second.classList.remove("show");
   menuBtn.classList.remove("hide");
 }
+
+
+
 window.onscroll = () => {
-  this.scrollY > 65 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-}
+  if (this.scrollY > 65) {
+    Second.classList.add("sticky");
+    navbar.classList.add("sticky");
+  } else {
+    Second.classList.remove("sticky");
+    navbar.classList.remove("sticky");
+  }
+};
 
 
 
-
-
-
-
-
-window.addEventListener('resize', function() {
+document.addEventListener('DOMContentLoaded', function() {
   var div1 = document.getElementById('div1');
   var div2 = document.getElementById('div2');
+  var parentContainer = div1.parentNode; // Assuming both div1 and div2 share the same parent
 
-  if (window.innerWidth <= 1219) {
-    div1.style.display = 'none';
-    
-    div2.style.display = 'block';
-   
+  if (parentContainer) {
+    function removeDiv(div) {
+      if (div.parentNode) {
+        div.parentNode.removeChild(div);
+      }
+    }
+
+    function addDiv(div) {
+      if (parentContainer) {
+        parentContainer.appendChild(div);
+      }
+    }
+
+    function updateDivs() {
+      if (window.innerWidth <= 1050) {
+        removeDiv(div1);
+        addDiv(div2);
+      } else {
+        removeDiv(div2);
+        addDiv(div1);
+      }
+    }
+
+    function handleResize() {
+      updateDivs();
+    }
+
+    // Initial update
+    updateDivs();
+
+    // Add a resize event listener
+    window.addEventListener('resize', handleResize);
   } else {
-    div1.style.display = 'block';
-   
-    div2.style.display = 'none';
-    
+    console.error("Parent container not found.");
   }
 });
+
+
+
+// window.addEventListener('resize', function() {
+//   var div1 = document.getElementById('div1');
+//   var div2 = document.getElementById('div2');
+
+//   if (window.innerWidth <= 1050) {
+//     div1.style.display = 'none';
+    
+//     div2.style.display = 'block';
+   
+//   } else {
+//     div1.style.display = 'block';
+   
+//     div2.style.display = 'none';
+    
+//   }
+// });
+
+// window.addEventListener('resize', function() {
+//   var navbar = document.getElementById('navbar');
+
+//   if (window.innerWidth <= 1050) {
+//     navbar.classList.remove('navbar');
+//     navbar.classList.add('second');
+   
+//   } else {
+//     navbar.classList.remove('second');
+//     navbar.classList.add('navbar');
+    
+//   }
+// });
 
 
 
