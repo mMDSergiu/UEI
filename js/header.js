@@ -12,7 +12,7 @@ const mainUrl1 = isHome ? '' : '.';
 document.getElementById('header').innerHTML = `  
 <div class="container-header">
 <nav class="nav1">
-<img src="./img/logo/logo-01.png" class="logo">
+<img src="./img/logo/logoweb.png" class="logo">
 <ul class="prim-header">
     <li><a><p class="mini-text">Email:</p><br><span class="fa fa-envelope" style="margin-right: 5px; font-size: 17px;"></span>s_rudoi@yahoo.com</a></li>
     <li><a><p class="mini-text">
@@ -28,7 +28,7 @@ document.getElementById('header').innerHTML = `
 <div id="div2">
     <nav class="Second">
     <div class="content">
-      
+    
       <ul class="menu-list">
       <li>
       <a href="${mainUrl}#AnchorNoi" class="lang-element ro" style="margin-right: 15px;">Noutăți</a>
@@ -225,6 +225,7 @@ document.getElementById('header').innerHTML = `
         </li>
     
     </ul>
+    <img src="./img/logo/logoweb.png" class="logo-sticky">
     
     <ul class="log1">
     <li class=doamneajuta>
@@ -243,7 +244,7 @@ document.getElementById('header').innerHTML = `
     <div id="div1">
     <nav class="navbar">
     <div class="content">
-      
+    <img src="./img/logo/logoweb.png" class="logo-sticky">
       <ul class="menu-list">
         <div class="icon cancel-btn">
           <i class="fas fa-times"></i>
@@ -522,7 +523,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateDivs() {
-      if (window.innerWidth <= 1050) {
+      if (window.innerWidth <= 1180) {
         removeDiv(div1);
         addDiv(div2);
       } else {

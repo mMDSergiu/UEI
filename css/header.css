@@ -94,7 +94,10 @@
     right: 15px;
   }
 
-
+  .logo-sticky{
+    max-height: 50px;
+    cursor: pointer;
+  }
   
   .navbar{
   position: sticky;
@@ -271,6 +274,7 @@ p{
     max-width: 80px;
     cursor: pointer;
 }
+
 .nav1 ul{
     list-style: none;
     width: 100%;
@@ -293,7 +297,11 @@ p{
 .Second{
     border-radius: 0px;
 }
-  @media (max-width: 1219px) {
+  @media (max-width: 1180px) {
+    .logo-sticky{
+      max-height: 75px;
+     margin: auto;
+    }
     body.disabled{
       overflow: hidden;
     }
