@@ -197,7 +197,7 @@ z-index: 1;
         color:#fff;        
     }
 
-/* iPads to Smartphone for Common Elements ----------- */  
+
 @media only screen and (max-width : 1024px) {    
 
     .col-3 {
@@ -302,7 +302,7 @@ z-index: 1;
     }
 }
 
-/* iPads (portrait)----------- */  
+  
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait) {
     
     footer {
@@ -317,7 +317,7 @@ z-index: 1;
     }
 }
 
-/* iPads (landscape) ----------- */  
+
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {  
     
   
@@ -333,7 +333,7 @@ z-index: 1;
     }
 }
 
-/* Mini Tablet ----------- */  
+ 
 @media only screen and (max-width : 600px) {  
     
     .col-3 {
@@ -352,7 +352,7 @@ z-index: 1;
     }
 }
 
-/* Smartphones (portrait and landscape) ----------- */  
+
 @media only screen and (max-width : 480px) {  
 
     .col-6 {

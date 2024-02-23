@@ -502,7 +502,7 @@ window.onscroll = () => {
 document.addEventListener('DOMContentLoaded', function() {
   var div1 = document.getElementById('div1');
   var div2 = document.getElementById('div2');
-  var parentContainer = div1.parentNode; // Assuming both div1 and div2 share the same parent
+  var parentContainer = div1.parentNode; 
 
   if (parentContainer) {
     function removeDiv(div) {
@@ -531,10 +531,10 @@ document.addEventListener('DOMContentLoaded', function() {
       updateDivs();
     }
 
-    // Initial update
+   
     updateDivs();
 
-    // Add a resize event listener
+  
     window.addEventListener('resize', handleResize);
   } else {
     console.error("Parent container not found.");

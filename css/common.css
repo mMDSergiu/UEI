@@ -477,7 +477,7 @@ max-width: 450px;
   }
 }
 
-/* Begin Right Contact Page */
+
 .direct-contact-container {
     max-width: 400px;
     margin-top: 140px;
@@ -486,7 +486,7 @@ max-width: 450px;
 }
 
   
-  /* Location, Phone, Email Section */
+
   .contact-list {
     list-style-type: none;
     margin-left: -30px;
@@ -535,7 +535,7 @@ max-width: 450px;
   }
   
   
-  /* Social Media Icons */
+
   .social-media-list {
     position: relative;
     font-size: 35px;
@@ -598,7 +598,7 @@ max-width: 450px;
     border-top: 4px solid #eee;
   }
   
-  /* Begin Media Queries*/
+ 
   @media screen and (max-width: 850px) {
     .contact-wrapper {
       display: flex;
