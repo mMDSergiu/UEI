@@ -488,7 +488,7 @@ cancelBtn.onclick = () => {
 
 
 window.onscroll = () => {
-  if (this.scrollY > 100) {
+  if (this.scrollY > 99) {
     Second.classList.add("sticky");
     navbar.classList.add("sticky");
   } else {
