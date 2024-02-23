@@ -177,7 +177,11 @@
     letter-spacing: -0.5px;
   }
   .menu-list li a:hover{
-    color:  rgb(21, 177, 255);
+    color:  #686ec1;
+    background-color: #fff;
+    border-radius: 5px;
+   padding: 3px 10px;
+    font-size: 15px;
   }
   
   .navbar .log{
@@ -208,7 +212,7 @@
   
   
   .log-site li a:hover{
-  color: #BBADFF;
+  color: #5e66cb;
   }
   
   .banner{

@@ -96,12 +96,12 @@ document.getElementById('header').innerHTML = `
                       <a class="lang-element en" style="display: none; user-select: none;">Parents Club   <p class="material-icons">expand_more</p></a>
                       <a class="lang-element ru" style="display: none; user-select: none;">Родительский Kлуб   <p class="material-icons">expand_more</p></a>
                       <div id="dropdown-content2" class="dropdown-content2">
-                      <a class="links" href="${mainUrl}#AnchorContact">
+                      <a class="links" href="${mainUrl2}./pages/Clubul Parintilor/ceeste.html">
                       <span class="lang-element ro">Ce este?</span>
                       <span class="lang-element en" style="display: none;">What is this?</span>
                       <span class="lang-element ru" style="display: none;">Что это?</span>
                       </a>
-                      <a class="links" href="${mainUrl}#AnchorRecenzii">
+                      <a class="links" href="${mainUrl2}./pages/Clubul Parintilor/login.html">
                       <span class="lang-element ro">Fă parte!</span>
                       <span class="lang-element en" style="display: none;">Be a part!</span>
                       <span class="lang-element ru" style="display: none;">Быть частью этого!</span>
@@ -342,12 +342,12 @@ document.getElementById('header').innerHTML = `
                           <a class="lang-element en" style="display: none; user-select: none;">Parents Club   <p class="material-icons">expand_more</p></a>
                           <a class="lang-element ru" style="display: none; user-select: none;">Родительский Kлуб   <p class="material-icons">expand_more</p></a>
                           <div id="dropdown-content2" class="dropdown-content2">
-                          <a class="links" href="${mainUrl}#AnchorContact">
+                          <a class="links" href="${mainUrl2}./pages/Clubul Parintilor/ceeste.html">
                           <span class="lang-element ro">Ce este?</span>
                           <span class="lang-element en" style="display: none;">What is this?</span>
                           <span class="lang-element ru" style="display: none;">Что это?</span>
                           </a>
-                          <a class="links" href="${mainUrl}#AnchorRecenzii">
+                          <a class="links" href="${mainUrl2}./pages/Clubul Parintilor/login.html">
                           <span class="lang-element ro">Fă parte!</span>
                           <span class="lang-element en" style="display: none;">Be a part!</span>
                           <span class="lang-element ru" style="display: none;">Быть частью этого!</span>
