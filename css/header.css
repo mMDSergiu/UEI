@@ -30,8 +30,10 @@
     min-width: 160px;
     padding: 12px 16px;
     background-color: #f1f1f1;
-    background-image: linear-gradient(to bottom right, #5e66cb, white);
+    background-image: linear-gradient(to bottom right, #5E66C9, #8E94CB);
     box-shadow: 0px 8px 12px 6px rgba(0,0,0,0.2);
+    border-radius: 0 10px;
+    filter: opacity(90%);
   }
   
   .dropdown-content2 a {
@@ -58,7 +60,8 @@
   }
   
   .menu-list li a span{
-    color: #5e66cb;
+    color: #d3beff;
+    margin-bottom: 5px;
   }
   
   
