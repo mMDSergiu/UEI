@@ -64,7 +64,7 @@ document.getElementById('header').innerHTML = `
                       <a class="lang-element en" style="display: none; user-select: none;">Education   <p class="material-icons">expand_more</p></a>
                       <a class="lang-element ru" style="display: none; user-select: none;">О нас   <p class="material-icons">expand_more</p></a>
                       <div id="dropdown-content2" class="dropdown-content2">
-                          <a class="links" href="${mainUrl}#AnchorRecenzii">
+                          <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
                           <span class="lang-element ro">Materiale Didactice</span>
                           <span class="lang-element en" style="display: none;">Didactic Materials</span>
                           <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
@@ -123,7 +123,7 @@ document.getElementById('header').innerHTML = `
                   <a class="lang-element en" style="display: none; user-select: none;">Adjustments   <p class="material-icons">expand_more</p></a>
                   <a class="lang-element ru" style="display: none; user-select: none;">Aдаптации   <p class="material-icons">expand_more</p></a>
                   <div id="dropdown-content2" class="dropdown-content2">
-                      <a class="links" href="${mainUrl}#AnchorRecenzii">
+                      <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
                       <span class="lang-element ro">Materiale Didactice</span>
                       <span class="lang-element en" style="display: none;">Didactic Materials</span>
                       <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
@@ -278,7 +278,7 @@ document.getElementById('header').innerHTML = `
                           <a class="lang-element en" style="display: none; user-select: none;">Education   <p class="material-icons">expand_more</p></a>
                           <a class="lang-element ru" style="display: none; user-select: none;">О нас   <p class="material-icons">expand_more</p></a>
                           <div id="dropdown-content2" class="dropdown-content2">
-                              <a class="links" href="${mainUrl}#AnchorRecenzii">
+                              <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
                               <span class="lang-element ro">Materiale Didactice</span>
                               <span class="lang-element en" style="display: none;">Didactic Materials</span>
                               <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
@@ -303,7 +303,7 @@ document.getElementById('header').innerHTML = `
                           <a class="lang-element en" style="display: none; user-select: none;">Adjustments   <p class="material-icons">expand_more</p></a>
                           <a class="lang-element ru" style="display: none; user-select: none;">Aдаптации   <p class="material-icons">expand_more</p></a>
                           <div id="dropdown-content2" class="dropdown-content2">
-                              <a class="links" href="${mainUrl}#AnchorRecenzii">
+                              <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
                               <span class="lang-element ro">Materiale Didactice</span>
                               <span class="lang-element en" style="display: none;">Didactic Materials</span>
                               <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>

@@ -309,6 +309,8 @@ max-width: 70%;
 
 .Back:hover, .forward:hover {
   background-color: rgba(0,0,0,0.8);
+  color: #EBD8FD;
+  text-decoration: none;
 }
 
 
