@@ -128,7 +128,7 @@ document.getElementById('header').innerHTML = `
                       <span class="lang-element en" style="display: none;">Didactic Materials</span>
                       <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
                       </a>
-                  <a class="links" href="${mainUrl}#AnchorContact">
+                  <a class="links" href="${mainUrl2}./pages/Adaptari/camerespeciale.html">
                   <span class="lang-element ro">Camere Speciale</span>
                   <span class="lang-element en" style="display: none;">Special Rooms</span>
                   <span class="lang-element ru" style="display: none;">Cпециальные Kомнаты</span>
@@ -298,7 +298,7 @@ document.getElementById('header').innerHTML = `
                               <span class="lang-element en" style="display: none;">Didactic Materials</span>
                               <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
                               </a>
-                          <a class="links" href="${mainUrl}#AnchorContact">
+                          <a class="links" href="${mainUrl2}./pages/Adaptari/camerespeciale.html">
                           <span class="lang-element ro">Camere Speciale</span>
                           <span class="lang-element en" style="display: none;">Special Rooms</span>
                           <span class="lang-element ru" style="display: none;">Cпециальные Kомнаты</span>
