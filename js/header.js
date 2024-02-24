@@ -69,7 +69,7 @@ document.getElementById('header').innerHTML = `
                           <span class="lang-element en" style="display: none;">Didactic Materials</span>
                           <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
                           </a>
-                      <a class="links" href="${mainUrl}#AnchorContact">
+                      <a class="links" href="${mainUrl2}./pages/Învățământ/Rutina.html">
                       <span class="lang-element ro">Rutina</span>
                       <span class="lang-element en" style="display: none;">Routine</span>
                       <span class="lang-element ru" style="display: none;">Рутина</span>
@@ -283,7 +283,7 @@ document.getElementById('header').innerHTML = `
                               <span class="lang-element en" style="display: none;">Didactic Materials</span>
                               <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
                               </a>
-                          <a class="links" href="${mainUrl}#AnchorContact">
+                          <a class="links" href="${mainUrl2}./pages/Învățământ/Rutina.htm">
                           <span class="lang-element ro">Rutina</span>
                           <span class="lang-element en" style="display: none;">Routine</span>
                           <span class="lang-element ru" style="display: none;">Рутина</span>
