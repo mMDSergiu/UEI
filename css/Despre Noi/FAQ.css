@@ -1,11 +1,15 @@
 .container {
-    margin: 125px auto;
+    margin: 100px auto;
     padding: 30px;
     width: 70%;
     background-color: #d3beff;
     border-radius: 15px;
   }
   
+section{
+  padding-top: 0;
+}
+
   h2{
     margin-top: 0;
     font-size: 35px;
