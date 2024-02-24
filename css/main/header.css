@@ -95,6 +95,9 @@
   .logo-sticky{
     max-height: 50px;
     cursor: pointer;
+    background-color: #5e66cb94;
+    border-radius: 10px;
+    padding: 3px;
   }
   
   .navbar{

@@ -33,9 +33,9 @@ document.getElementById('header').innerHTML = `
           
             <ul class="menu-list">
             <li>
-            <a href="${mainUrl}#AnchorNoi" class="lang-element ro" style="margin-right: 15px;">Noutăți</a>
-            <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none; margin-right: 15px;">News</a>
-            <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none; margin-right: 15px;">Новости</a>
+            <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Noutăți</a>
+            <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">News</a>
+            <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Новости</a>
             </li>
             <span class="log-site"><li>
               <div id="dropdown3" class="dropdown3">
@@ -84,9 +84,9 @@ document.getElementById('header').innerHTML = `
               </li></span>
       
               <li>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element ro">Proiecte</a>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none;">Projects</a>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none;">Проекты</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro">Proiecte</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none;">Projects</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none;">Проекты</a>
                   </li>
       
                   <span class="log-site">
@@ -139,44 +139,34 @@ document.getElementById('header').innerHTML = `
                   <span class="lang-element ru" style="display: none;">Лиомоторные адаптации</span>
                   </a>
                   <a class="links" href="${mainUrl}#AnchorRecenzii">
-                          <span class="lang-element ro">Echipamente Asistive</span>
-                          <span class="lang-element en" style="display: none;">Equipment Assertive</span>
-                          <span class="lang-element ru" style="display: none;">Оборудование  Напористый</span>
+                          <span class="lang-element ro">Echipamente</span>
+                          <span class="lang-element en" style="display: none;">Equipments</span>
+                          <span class="lang-element ru" style="display: none;">Оборудование</span>
                           </a>
-                          <a class="links" href="${mainUrl}#AnchorContact">
-                      <span class="lang-element ro">Echipamente Digitale</span>
-                      <span class="lang-element en" style="display: none;">Digital Equipment</span>
-                      <span class="lang-element ru" style="display: none;">Оборудование Цифровой</span>
-                      </a>
                   </div>
                 </div>
                   </li>
           </span>
       
               <li>
-              <a href="${mainUrl}#AnchorNoi" class="lang-element ro">Lumos</a>
-              <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none;">Lumos</a>
-              <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none;">Lumos</a>
+              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro">Sponsori</a>
+              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none;">Sponsors</a>
+              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none;">Спонсоры</a>
               </li>
       
               <span class="log-site">
               <li>
               <div id="dropdown3" class="dropdown3">
-              <a class="lang-element ro" style="user-select: none;" >Activitati   <p class="material-icons">expand_more</p></a>
+              <a class="lang-element ro" style="user-select: none;" >Activități   <p class="material-icons">expand_more</p></a>
               <a class="lang-element en" style="display: none; user-select: none;">Activity   <p class="material-icons">expand_more</p></a>
               <a class="lang-element ru" style="display: none; user-select: none;">Активность   <p class="material-icons">expand_more</p></a>
               <div id="dropdown-content2" class="dropdown-content2">
-              <a class="links" href="${mainUrl}#AnchorContact">
-              <span class="lang-element ro">Metodice</span>
-              <span class="lang-element en" style="display: none;">Methodical</span>
-              <span class="lang-element ru" style="display: none;">Методическая</span>
-              </a>
-              <a class="links" href="${mainUrl}#AnchorRecenzii">
+              <a class="links" href="${mainUrl2}./pages/Activitati/generale.html">
               <span class="lang-element ro">Generale</span>
               <span class="lang-element en" style="display: none;">General</span>
               <span class="lang-element ru" style="display: none;">Генерал</span>
               </a>
-              <a class="links" href="${mainUrl}#AnchorRecenzii">
+              <a class="links" href="${mainUrl2}./pages/main/paginlucru.html">
               <span class="lang-element ro">Proiecte</span>
               <span class="lang-element en" style="display: none;">Projects</span>
               <span class="lang-element ru" style="display: none;">Проекты</span>
@@ -188,14 +178,14 @@ document.getElementById('header').innerHTML = `
               
       
                       <li>
-                          <a href="${mainUrl}#AnchorNoi" class="lang-element ro">Galerie</a>
-                          <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none;">Gallery</a>
-                          <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none;">Галерея</a>
+                          <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro">Galerie</a>
+                          <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none;">Gallery</a>
+                          <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none;">Галерея</a>
                           </li>
                           <li>
-                              <a href="${mainUrl}#AnchorNoi" class="lang-element ro">Echipa</a>
-                              <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none;">Team</a>
-                              <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none;">Команда</a>
+                              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro">Echipa</a>
+                              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none;">Team</a>
+                              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none;">Команда</a>
                               </li>
               </ul>
           
@@ -247,9 +237,9 @@ document.getElementById('header').innerHTML = `
                 <i class="fas fa-times"></i>
               </div>
               <li>
-              <a href="${mainUrl}#AnchorSus" class="lang-element ro" style="margin-right: 15px;">Noutăți</a>
-              <a href="${mainUrl}#AnchorSus" class="lang-element en" style="display: none; margin-right: 15px;">News</a>
-              <a href="${mainUrl}#AnchorSus" class="lang-element ru" style="display: none; margin-right: 15px;">Новости</a>
+              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Noutăți</a>
+              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">News</a>
+              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Новости</a>
               </li>
               <span class="log-site"><li>
                   <div id="dropdown3" class="dropdown3">
@@ -319,15 +309,10 @@ document.getElementById('header').innerHTML = `
                           <span class="lang-element ru" style="display: none;">Лиомоторные адаптации</span>
                           </a>
                           <a class="links" href="${mainUrl}#AnchorRecenzii">
-                                  <span class="lang-element ro">Echipamente Asistive</span>
-                                  <span class="lang-element en" style="display: none;">Equipment Assertive</span>
-                                  <span class="lang-element ru" style="display: none;">Оборудование  Напористый</span>
+                                  <span class="lang-element ro">Echipamente</span>
+                                  <span class="lang-element en" style="display: none;">Equipments</span>
+                                  <span class="lang-element ru" style="display: none;">Оборудование</span>
                                   </a>
-                                  <a class="links" href="${mainUrl}#AnchorContact">
-                              <span class="lang-element ro">Echipamente Digitale</span>
-                              <span class="lang-element en" style="display: none;">Digital Equipment</span>
-                              <span class="lang-element ru" style="display: none;">Оборудование Цифровой</span>
-                              </a>
                           </div>
                         </div>
                   </li></span>
@@ -359,21 +344,16 @@ document.getElementById('header').innerHTML = `
                           <span class="log-site">
                           <li>
                               <div id="dropdown3" class="dropdown3">
-                              <a class="lang-element ro" style="user-select: none;" >Activitati   <p class="material-icons">expand_more</p></a>
+                              <a class="lang-element ro" style="user-select: none;" >Activități   <p class="material-icons">expand_more</p></a>
                               <a class="lang-element en" style="display: none; user-select: none;">Activity   <p class="material-icons">expand_more</p></a>
                               <a class="lang-element ru" style="display: none; user-select: none;">Активность   <p class="material-icons">expand_more</p></a>
                               <div id="dropdown-content2" class="dropdown-content2">
-                              <a class="links" href="${mainUrl}#AnchorContact">
-                              <span class="lang-element ro">Metodice</span>
-                              <span class="lang-element en" style="display: none;">Methodical</span>
-                              <span class="lang-element ru" style="display: none;">Методическая</span>
-                              </a>
-                              <a class="links" href="${mainUrl}#AnchorRecenzii">
+                              <a class="links" href="${mainUrl2}./pages/Activitati/generale.html">
                               <span class="lang-element ro">Generale</span>
                               <span class="lang-element en" style="display: none;">General</span>
                               <span class="lang-element ru" style="display: none;">Генерал</span>
                               </a>
-                              <a class="links" href="${mainUrl}#AnchorRecenzii">
+                              <a class="links" href="${mainUrl2}./pages/main/paginlucru.html">
                               <span class="lang-element ro">Proiecte</span>
                               <span class="lang-element en" style="display: none;">Projects</span>
                               <span class="lang-element ru" style="display: none;">Проекты</span>
@@ -384,21 +364,21 @@ document.getElementById('header').innerHTML = `
                               </span>
       
                               <li>
-                                  <a href="${mainUrl}#AnchorNoi" class="lang-element ro" style="margin-right: 15px;">Lumos</a>
-                                  <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none; margin-right: 15px;">Lumos</a>
-                                  <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none; margin-right: 15px;">Lumos</a>
+                                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Sponsori</a>
+                                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">Sponsors</a>
+                                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Спонсоры</a>
                                   </li>
               
           
                    <li>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element ro" style="margin-right: 15px;">Galerie</a>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none; margin-right: 15px;">Gallery</a>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none; margin-right: 15px;">Галерея</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Galerie</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">Gallery</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Галерея</a>
               </li>    
                    <li>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element ro" style="margin-right: 15px;">Echipa</a>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element en" style="display: none; margin-right: 15px;">Team</a>
-                  <a href="${mainUrl}#AnchorNoi" class="lang-element ru" style="display: none; margin-right: 15px;">Команда</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Echipa</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">Team</a>
+                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Команда</a>
               </li>
            
               </ul>
