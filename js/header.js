@@ -133,12 +133,12 @@ document.getElementById('header').innerHTML = `
                   <span class="lang-element en" style="display: none;">Special Rooms</span>
                   <span class="lang-element ru" style="display: none;">Cпециальные Kомнаты</span>
                   </a>
-                  <a class="links" href="${mainUrl}#AnchorFAQ">
-                  <span class="lang-element ro">Adaptari Liocomotorii</span>
-                  <span class="lang-element en" style="display: none;">Lyomotor adaptations</span>
-                  <span class="lang-element ru" style="display: none;">Лиомоторные адаптации</span>
+                  <a class="links" href="${mainUrl2}./pages/Adaptari/camerespeciale.html">
+                  <span class="lang-element ro">Adaptari Locomotorii</span>
+                  <span class="lang-element en" style="display: none;">Locomotor adaptations</span>
+                  <span class="lang-element ru" style="display: none;">Локомоторный адаптации</span>
                   </a>
-                  <a class="links" href="${mainUrl}#AnchorRecenzii">
+                  <a class="links" href="${mainUrl2}./pages/Adaptari/echipamente.html">
                           <span class="lang-element ro">Echipamente</span>
                           <span class="lang-element en" style="display: none;">Equipments</span>
                           <span class="lang-element ru" style="display: none;">Оборудование</span>
@@ -303,12 +303,12 @@ document.getElementById('header').innerHTML = `
                           <span class="lang-element en" style="display: none;">Special Rooms</span>
                           <span class="lang-element ru" style="display: none;">Cпециальные Kомнаты</span>
                           </a>
-                          <a class="links" href="${mainUrl}#AnchorFAQ">
-                          <span class="lang-element ro">Adaptari Liocomotorii</span>
-                          <span class="lang-element en" style="display: none;">Lyomotor adaptations</span>
-                          <span class="lang-element ru" style="display: none;">Лиомоторные адаптации</span>
+                          <a class="links" href="${mainUrl2}./pages/Adaptari/locomotorii.html">
+                          <span class="lang-element ro">Adaptari Locomotorii</span>
+                          <span class="lang-element en" style="display: none;">Locomotor adaptations</span>
+                          <span class="lang-element ru" style="display: none;">Локомоторный адаптации</span>
                           </a>
-                          <a class="links" href="${mainUrl}#AnchorRecenzii">
+                          <a class="links" href="${mainUrl2}./pages/Adaptari/echipamente.html">
                                   <span class="lang-element ro">Echipamente</span>
                                   <span class="lang-element en" style="display: none;">Equipments</span>
                                   <span class="lang-element ru" style="display: none;">Оборудование</span>
