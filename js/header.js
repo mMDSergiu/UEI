@@ -74,7 +74,7 @@ document.getElementById('header').innerHTML = `
                       <span class="lang-element en" style="display: none;">Routine</span>
                       <span class="lang-element ru" style="display: none;">Рутина</span>
                       </a>
-                      <a class="links" href="${mainUrl}#AnchorFAQ">
+                      <a class="links" href="${mainUrl2}./pages/Învățământ/TipModStudii.html">
                       <span class="lang-element ro">Tipul și modul studiilor</span>
                       <span class="lang-element en" style="display: none;">Type and mode of studies</span>
                       <span class="lang-element ru" style="display: none;">Тип и форма обучения</span>
@@ -288,7 +288,7 @@ document.getElementById('header').innerHTML = `
                           <span class="lang-element en" style="display: none;">Routine</span>
                           <span class="lang-element ru" style="display: none;">Рутина</span>
                           </a>
-                          <a class="links" href="${mainUrl}#AnchorFAQ">
+                          <a class="links" href="${mainUrl2}./pages/Învățământ/TipModStudii.html">
                           <span class="lang-element ro">Tipul și modul studiilor</span>
                           <span class="lang-element en" style="display: none;">Type and mode of studies</span>
                           <span class="lang-element ru" style="display: none;">Тип и форма обучения</span>
