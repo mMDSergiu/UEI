@@ -60,21 +60,21 @@ document.getElementById('header').innerHTML = `
       
               <span class="log-site"><li>
                   <div id="dropdown3" class="dropdown3">
-                      <a class="lang-element ro" style="user-select: none;" >Învățământ  <p class="material-icons">expand_more</p></a>
+                      <a class="lang-element ro" style="user-select: none;" >Invatamant  <p class="material-icons">expand_more</p></a>
                       <a class="lang-element en" style="display: none; user-select: none;">Education   <p class="material-icons">expand_more</p></a>
                       <a class="lang-element ru" style="display: none; user-select: none;">О нас   <p class="material-icons">expand_more</p></a>
                       <div id="dropdown-content2" class="dropdown-content2">
-                          <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
+                          <a class="links" href="${mainUrl2}./pages/Invatamant/MaterialeDidactice.html">
                           <span class="lang-element ro">Materiale Didactice</span>
                           <span class="lang-element en" style="display: none;">Didactic Materials</span>
                           <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
                           </a>
-                      <a class="links" href="${mainUrl2}./pages/Învățământ/Rutina.html">
+                      <a class="links" href="${mainUrl2}./pages/Invatamant/Rutina.html">
                       <span class="lang-element ro">Rutina</span>
                       <span class="lang-element en" style="display: none;">Routine</span>
                       <span class="lang-element ru" style="display: none;">Рутина</span>
                       </a>
-                      <a class="links" href="${mainUrl2}./pages/Învățământ/TipModStudii.html">
+                      <a class="links" href="${mainUrl2}./pages/Invatamant/TipModStudii.html">
                       <span class="lang-element ro">Tipul și modul studiilor</span>
                       <span class="lang-element en" style="display: none;">Type and mode of studies</span>
                       <span class="lang-element ru" style="display: none;">Тип и форма обучения</span>
@@ -123,7 +123,7 @@ document.getElementById('header').innerHTML = `
                   <a class="lang-element en" style="display: none; user-select: none;">Adjustments   <p class="material-icons">expand_more</p></a>
                   <a class="lang-element ru" style="display: none; user-select: none;">Aдаптации   <p class="material-icons">expand_more</p></a>
                   <div id="dropdown-content2" class="dropdown-content2">
-                      <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
+                      <a class="links" href="${mainUrl2}./pages/Invatamant/MaterialeDidactice.html">
                       <span class="lang-element ro">Materiale Didactice</span>
                       <span class="lang-element en" style="display: none;">Didactic Materials</span>
                       <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
@@ -264,21 +264,21 @@ document.getElementById('header').innerHTML = `
 
                   <span class="log-site"><li>
                       <div id="dropdown3" class="dropdown3">
-                          <a class="lang-element ro" style="user-select: none;" >Învățământ  <p class="material-icons">expand_more</p></a>
+                          <a class="lang-element ro" style="user-select: none;" >Invatamant  <p class="material-icons">expand_more</p></a>
                           <a class="lang-element en" style="display: none; user-select: none;">Education   <p class="material-icons">expand_more</p></a>
                           <a class="lang-element ru" style="display: none; user-select: none;">О нас   <p class="material-icons">expand_more</p></a>
                           <div id="dropdown-content2" class="dropdown-content2">
-                              <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
+                              <a class="links" href="${mainUrl2}./pages/Invatamant/MaterialeDidactice.html">
                               <span class="lang-element ro">Materiale Didactice</span>
                               <span class="lang-element en" style="display: none;">Didactic Materials</span>
                               <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
                               </a>
-                          <a class="links" href="${mainUrl2}./pages/Învățământ/Rutina.html">
+                          <a class="links" href="${mainUrl2}./pages/Invatamant/Rutina.html">
                           <span class="lang-element ro">Rutina</span>
                           <span class="lang-element en" style="display: none;">Routine</span>
                           <span class="lang-element ru" style="display: none;">Рутина</span>
                           </a>
-                          <a class="links" href="${mainUrl2}./pages/Învățământ/TipModStudii.html">
+                          <a class="links" href="${mainUrl2}./pages/Invatamant/TipModStudii.html">
                           <span class="lang-element ro">Tipul și modul studiilor</span>
                           <span class="lang-element en" style="display: none;">Type and mode of studies</span>
                           <span class="lang-element ru" style="display: none;">Тип и форма обучения</span>
@@ -293,7 +293,7 @@ document.getElementById('header').innerHTML = `
                           <a class="lang-element en" style="display: none; user-select: none;">Adjustments   <p class="material-icons">expand_more</p></a>
                           <a class="lang-element ru" style="display: none; user-select: none;">Aдаптации   <p class="material-icons">expand_more</p></a>
                           <div id="dropdown-content2" class="dropdown-content2">
-                              <a class="links" href="${mainUrl2}./pages/Învățământ/MaterialeDidactice.html">
+                              <a class="links" href="${mainUrl2}./pages/Invatamant/MaterialeDidactice.html">
                               <span class="lang-element ro">Materiale Didactice</span>
                               <span class="lang-element en" style="display: none;">Didactic Materials</span>
                               <span class="lang-element ru" style="display: none;">Дидактические Mатериалы</span>
