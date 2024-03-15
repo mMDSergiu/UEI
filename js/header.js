@@ -183,9 +183,9 @@ document.getElementById('header').innerHTML = `
                           <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none;">Галерея</a>
                           </li>
                           <li>
-                              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro">Echipa</a>
-                              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none;">Team</a>
-                              <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none;">Команда</a>
+                              <a href="${mainUrl2}./pages/Echipa/echipa.html" class="lang-element ro">Echipa</a>
+                              <a href="${mainUrl2}./pages/Echipa/echipa.html" class="lang-element en" style="display: none;">Team</a>
+                              <a href="${mainUrl2}./pages/Echipa/echipa.html" class="lang-element ru" style="display: none;">Команда</a>
                               </li>
               </ul>
           
@@ -376,9 +376,9 @@ document.getElementById('header').innerHTML = `
                   <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Галерея</a>
               </li>    
                    <li>
-                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Echipa</a>
-                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">Team</a>
-                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Команда</a>
+                  <a href="${mainUrl2}./pages/Echipa/echipa.html" class="lang-element ro" style="margin-right: 15px;">Echipa</a>
+                  <a href="${mainUrl2}./pages/Echipa/echipa.html" class="lang-element en" style="display: none; margin-right: 15px;">Team</a>
+                  <a href="${mainUrl2}./pages/Echipa/echipa.html" class="lang-element ru" style="display: none; margin-right: 15px;">Команда</a>
               </li>
            
               </ul>
