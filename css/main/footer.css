@@ -1,5 +1,5 @@
 footer {
-    background-color: #5e66cb;
+    background-color: var(--secundary-color);
     padding: 3em 4em 2em;
 
     -webkit-box-shadow: 0px 0px 22px -5px rgba(0,0,0,0.75);
@@ -10,7 +10,7 @@ z-index: 1;
 }
 
     footer .logo {
-        color:#fff;
+        color:var(--tenth-color);
         font-size: 28px;
         font-family: "Poppins", sans-serif;
     }
@@ -18,9 +18,9 @@ z-index: 1;
     footer .row {
         margin: 2em 0;
         font-family: lato;
-        color: #fff;
+        color: var(--tenth-color);
         position: relative;
-        border-bottom: 1px solid #cecece;
+        border-bottom: 1px solid var(--sixth-color);
     }
     
     .footer-toggle {
@@ -50,7 +50,7 @@ z-index: 1;
         }
 
         .footer-cat-links a {
-            color: #cecece;
+            color: var(--sixth-color);
             text-decoration: none;
             position: relative;
         }
@@ -137,7 +137,7 @@ z-index: 1;
     }
     
         .social-links a {
-            color: #fff;
+            color: var(--tenth-color);
             font-size: 20px;
             border: 1px solid;
             border-radius: 20px;
@@ -172,7 +172,7 @@ z-index: 1;
                 }
 
                     #newsletter #address li div {
-                        color: #cecece;
+                        color: var(--sixth-color);
                         font-size: 14px;
                         width: 80%;
                         text-align: left;
@@ -182,7 +182,7 @@ z-index: 1;
 
     #copyright {
         text-align: center;
-        color:#fff;
+        color:var(--sixth-color);
         font-family: lato;
     }
 

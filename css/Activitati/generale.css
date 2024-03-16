@@ -19,7 +19,7 @@
 }
 
 .first-box h2{
-    color: #5e66cb;
+    color: var(--tenth-color);
     font-size: 25px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -43,6 +43,6 @@
 
 .link-simplu{
     cursor: pointer;
-font-weight: 500;
-    color: #8E94F2;
+font-weight: 600;
+    color: var(--tenth-color);
 }

@@ -4,7 +4,10 @@
     font-family: "Poppins", sans-serif;
 }
 
-
+.capet{
+    color: var(--tenth-color);
+    font-weight: 600;
+}
 
 .stanga{
     padding-right: 20%;
@@ -18,7 +21,7 @@
 }
 
 .first-box h2{
-    color: #5e66cb;
+    color: var(--tenth-color);
     font-size: 25px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;

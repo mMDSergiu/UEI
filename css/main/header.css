@@ -14,6 +14,7 @@
     cursor: pointer;
     position: relative;
     top: 5px;
+    opacity: 85%;
   }
   
   .dropdown3 {
@@ -95,7 +96,7 @@
   .logo-sticky{
     max-height: 50px;
     cursor: pointer;
-    background-color: #5e66cb94;
+    background-color: var(--twelf-color);
     border-radius: 10px;
     padding: 3px;
   }
@@ -106,10 +107,10 @@
     z-index: 900;
     padding: 15px 0;
     transition: all 0.5s ease;
-    background: #8E94F2;
+    background: var(--eleventh-color);
   }
   .navbar.sticky{
-    background: #5e66cb;
+    background: var(--twelf-color);
     padding: 10px 0;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
     transition: 300ms;
@@ -123,7 +124,7 @@
     justify-content: space-between;
   }
   .navbar a{
-    color: #fff;
+    color: var(--sixth-color);
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
@@ -155,7 +156,7 @@
     justify-content: space-between;
   }
   .Second a{
-    color: #fff;
+    color: var(--sixth-color);
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
@@ -170,7 +171,7 @@
     list-style: none;
   }
   .menu-list li a{
-    color: #fff;
+    color: var(--sixth-color);
     font-size: 18px;
     font-weight: 300;
     margin-right: 35px;
@@ -181,7 +182,7 @@
   }
   .menu-list li a:hover{
     color:  #686ec1;
-    background-color: #fff;
+    background-color: var(--sixth-color);
     border-radius: 5px;
    padding: 3px 10px;
     font-size: 15px;
@@ -236,7 +237,7 @@
     text-align: justify;
   }
   .icon{
-    color: #fff;
+    color: var(--sixth-color);
     font-size: 20px;
     cursor: pointer;
     display: none;
@@ -274,7 +275,7 @@ p{
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
-    background-color: #5e66cb;
+    background-color: var(--twelf-color);
   }
   
 .logo{
@@ -295,7 +296,7 @@ p{
 }
 
 .nav1 ul li a{
-    color: #fff;
+    color: var(--sixth-color);
     text-decoration: none;
 }
 .navbar{

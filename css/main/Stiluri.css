@@ -3,7 +3,7 @@ html {
 }
 
 body{
-  background-color: #EBD8FD;
+  background-color: var(--primary-color);
 }
 
 section {
@@ -48,7 +48,7 @@ justify-content: center;
 
 .favrow img:hover {
 
- box-shadow: 0 0 30px 0.5px #5e66cb;
+ box-shadow: 0 0 30px 0.5px var(--tenth-color);
 }
 
 .favrow img {
@@ -206,3 +206,5 @@ max-width: 500px;
  from {opacity: .5}
  to {opacity: 2}
 }
+
+
