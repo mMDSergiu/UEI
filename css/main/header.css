@@ -153,10 +153,10 @@
     z-index: 9;
     padding: 15px 0;
     transition: all 0.5s ease;
-    background: #8E94F2;
+    background: var(--eleventh-color);
   }
   .Second.sticky{
-    background: #5e66cb;
+    background: var(--twelf-color);
     padding: 10px 0;
     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
     transition: 300ms;
@@ -252,7 +252,7 @@
     text-align: justify;
   }
   .icon{
-    color: var(--sixth-color);
+    color: var(--tenth-color);
     font-size: 20px;
     cursor: pointer;
     display: none;
@@ -368,7 +368,7 @@ p{
       top: 0px;
       display: block;
       padding: 40px 0;
-      background: #5158b8e8;
+      background-image: linear-gradient(to bottom right, var(--gradient-first), var(--gradient-second));;
       transition: all 0.3s ease;
       padding-left: 60px;
     }
