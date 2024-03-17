@@ -31,12 +31,18 @@
     min-width: 160px;
     padding: 12px 16px;
     background-color: #f1f1f1;
-    background-image: linear-gradient(to bottom right, #5E66C9, #8E94CB);
-    box-shadow: 0px 8px 12px 6px rgba(0,0,0,0.2);
+    background-image: linear-gradient(to bottom right, var(--gradient-first), var(--gradient-second));
+    box-shadow: 0px 8px 12px 6px var(--shadow-first);
     border-radius: 0 10px;
     filter: opacity(90%);
+    border-right: 4px solid #a99f8c;
+    border-left: 4px solid #a99f8c;
   }
   
+
+ 
+
+
   .dropdown-content2 a {
     color: black;
     padding: 8px 0;
@@ -61,11 +67,19 @@
   }
   
   .menu-list li a span{
-    color: #d3beff;
+    color: var(--tirth-color);
     margin-bottom: 5px;
   }
   
+
+
+  .menu-list li a:hover span{     
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+  }
   
+
+
   .content{
     max-width: 1250px;
     margin: auto;
@@ -181,8 +195,8 @@
     letter-spacing: -0.5px;
   }
   .menu-list li a:hover{
-    color:  #686ec1;
-    background-color: var(--sixth-color);
+    color:  var(--tenth-color);
+    background-color: #fff;
     border-radius: 5px;
    padding: 3px 10px;
     font-size: 15px;
@@ -216,7 +230,8 @@
   
   
   .log-site li a:hover{
-  color: #5e66cb;
+  color: #575238;
+  font-weight: 400;
   }
   
   .banner{
@@ -299,6 +314,12 @@ p{
     color: var(--sixth-color);
     text-decoration: none;
 }
+
+.nav1 ul li:hover a{
+  color: var(--tenth-color);
+  transition: color 0.3s cubic-bezier(0.11, 0, 0.5, 0) 0.2s;
+}
+
 .navbar{
     border-radius: 0px;
 }

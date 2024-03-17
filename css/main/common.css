@@ -50,7 +50,14 @@
   --tenth-color: #7a724c;
   --eleventh-color:#f1e5c7;
   --twelf-color: #DED0B6;
+
+  --tirth-color:#534e35;
   
+  --gradient-first:#d2c19f;
+  --gradient-second: #FDF7E4;
+
+  --shadow-first:rgba(0,0,0,0.2);
+  --shadow-second:#656043;
 }
 
 
@@ -70,6 +77,15 @@
   --tenth-color: #BBAB8C;
   --eleventh-color:#31363F;
   --twelf-color: #222831;
+
+  --tirth-color:#202020;
+
+  --gradient-first: #b1a286;
+  --gradient-second: rgb(253, 239, 196);
+
+  --shadow-first:rgba(255, 255, 255, 0.2);
+
+  --shadow-second:#d2c09c;
 }
 
 .poppins-light {
@@ -111,7 +127,7 @@
 }
 
 .dropdown-btn:hover span{
-color: #EBD8FD;
+color: #f1e5c7;
 transition: 0.2s ease-in-out;
 }
 

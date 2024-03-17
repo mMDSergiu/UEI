@@ -371,9 +371,9 @@ document.getElementById('header').innerHTML = `
               
           
                    <li>
-                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Galerie</a>
-                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">Gallery</a>
-                  <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none; margin-right: 15px;">Галерея</a>
+                  <a href="${mainUrl2}./pages/Galerie/galerie.html" class="lang-element ro" style="margin-right: 15px;">Galerie</a>
+                  <a href="${mainUrl2}./pages/Galerie/galerie.html" class="lang-element en" style="display: none; margin-right: 15px;">Gallery</a>
+                  <a href="${mainUrl2}./pages/Galerie/galerie.html" class="lang-element ru" style="display: none; margin-right: 15px;">Галерея</a>
               </li>    
                    <li>
                   <a href="${mainUrl2}./pages/Echipa/echipa.html" class="lang-element ro" style="margin-right: 15px;">Echipa</a>
