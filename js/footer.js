@@ -132,8 +132,8 @@ document.getElementById('footer1').innerHTML = `
             <span class="lang-element ru" style="display: none;">&copy; 2024 Содержит все авторские права.</span>
 
           </div>
-          <div id="owner">
-              
+          <div class:"disclaimer" id="owner">
+          <p class:"disclaimer-p">Acest WebSite a fost realizat în cadrul competiției "TekWill Junior Abassadors" organizată de proiectul "TekWill în Fiecare Școală"</p>
           </div>
 `;
 

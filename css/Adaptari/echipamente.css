@@ -20,7 +20,7 @@
 }
 
 .first-box h2{
-    color: #5e66cb;
+    color: var(--tenth-color);
     font-size: 25px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;

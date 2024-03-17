@@ -365,3 +365,9 @@ z-index: 1;
         padding-left: 1em;
     }
 }
+
+
+
+p{
+    color: var(--tenth-color);
+}
