@@ -11,17 +11,17 @@
   }
   
   ::-webkit-scrollbar-track {
-    background: rgb(23, 23, 23);
+    background: var(--webkit-first);
     border-radius: 0px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: rgb(23, 23, 23);
+    background: var(--webkit-first);
     border-radius: 2px;
   }
   
   ::-webkit-scrollbar-track {
-    background: rgb(66, 66, 66);
+    background: var(--primary-color);
     border-radius: 0px;
   }
   
@@ -56,13 +56,18 @@
   --gradient-first:#d2c19f;
   --gradient-second: #FDF7E4;
 
+  --gradient-third:#d2c19f;
+  --gradient-forth: #FDF7E4;
+
   --shadow-first:rgba(0,0,0,0.2);
   --shadow-second:#656043;
+
+  --webkit-first: #d3c8b2;
 }
 
 
 .white-theme{
-  --primary-color: #222831;
+  --primary-color: #a89a82;
   --secundary-color:#31363F;
   --third-color:#BBAB8C;
   --forth-color:  #414752;
@@ -83,9 +88,13 @@
   --gradient-first: #b1a286;
   --gradient-second: rgb(253, 239, 196);
 
-  --shadow-first:rgba(255, 255, 255, 0.2);
+  --gradient-third: #222831;
+  --gradient-forth: #31363F;
 
+  --shadow-first:rgba(255, 255, 255, 0.2);
   --shadow-second:#d2c09c;
+
+  --webkit-first: #15191f;
 }
 
 .poppins-light {

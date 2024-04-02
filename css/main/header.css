@@ -361,16 +361,17 @@ p{
     .Second .menu-list{
       position: fixed;
      z-index: 10;
-      height: 100vh;
+      height: 100%;
       width: 100%;
       max-width: 400px;
       left: -100%;
       top: 0px;
       display: block;
       padding: 40px 0;
-      background-image: linear-gradient(to bottom right, var(--gradient-first), var(--gradient-second));;
+      background-image: linear-gradient(to bottom right, var(--gradient-third), var(--gradient-forth));
       transition: all 0.3s ease;
       padding-left: 60px;
+      overflow: overlay;
     }
     .navbar.show .menu-list{
       left: 0%;

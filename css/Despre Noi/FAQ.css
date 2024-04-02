@@ -114,3 +114,9 @@ section{
     margin: 20px 0;
     color: var(--shadow-second);
   }
+
+  @media (max-width: 650px){
+    .container{
+      width: 95%;
+    }
+  }
