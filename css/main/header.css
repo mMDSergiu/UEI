@@ -198,10 +198,17 @@
     color:  var(--tenth-color);
     background-color: #fff;
     border-radius: 5px;
-   padding: 3px 10px;
-    font-size: 15px;
+    padding: 1px 2px;
   }
   
+  .menu-list li a:hover span{
+    padding: 2.5px 5px;
+    transition: all 0.3s ease-in-out;
+    font-size: 17px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+  }
+
   .navbar .log{
     display: inline-flex;
   }
@@ -232,6 +239,7 @@
   .log-site li a:hover{
   color: #575238;
   font-weight: 400;
+  transition: 200ms ease-in-out;
   }
   
   .banner{
@@ -279,7 +287,7 @@ p{
 .mini-text{
     text-align: right;
     position: relative;
-    color: #b4b4b4;
+    color: var(--tenth-color-mod);
     font-size: 12px;
     top: 20px;
 }

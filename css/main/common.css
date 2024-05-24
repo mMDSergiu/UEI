@@ -36,6 +36,7 @@
 
 :root {
   --primary-color: #FDF7E4;
+  --primary-color-opacity: rgba(222, 208, 182, 0.8);
   --secundary-color:#DED0B6;
   --third-color:#31363F;
   --forth-color:  #bfb29b;
@@ -48,6 +49,7 @@
   --nineght-colo: #DED0B6;
 
   --tenth-color: #7a724c;
+  --tenth-color-mod:black;
   --eleventh-color:#f1e5c7;
   --twelf-color: #DED0B6;
 
@@ -61,6 +63,7 @@
 
   --shadow-first:rgba(0,0,0,0.2);
   --shadow-second:#656043;
+  --shadow-tird:#7a724c;
 
   --webkit-first: #d3c8b2;
 }
@@ -68,6 +71,7 @@
 
 .white-theme{
   --primary-color: #a89a82;
+  --primary-color-opacity: rgba(49, 54, 63, 0.8);
   --secundary-color:#31363F;
   --third-color:#BBAB8C;
   --forth-color:  #414752;
@@ -80,6 +84,7 @@
   --nineght-colo: #DED0B6;
 
   --tenth-color: #BBAB8C;
+  --tenth-color-mod:#BBAB8C;
   --eleventh-color:#31363F;
   --twelf-color: #222831;
 
@@ -93,6 +98,7 @@
 
   --shadow-first:rgba(255, 255, 255, 0.2);
   --shadow-second:#d2c09c;
+  --shadow-tird:#fff;
 
   --webkit-first: #15191f;
 }
@@ -433,7 +439,7 @@ max-width: 500px;
     height: 600px;
     background: var(--secundary-color);
     z-index: 0;
-    margin-bottom: 160px;
+    margin-bottom: 200px;
     transform: skewY(-6deg);
     transform-origin: top right;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.365);

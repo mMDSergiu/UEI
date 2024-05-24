@@ -44,5 +44,5 @@
 .link-simplu{
     cursor: pointer;
 
-    color: #8E94F2;
+    color: var(--tenth-color);
 }
