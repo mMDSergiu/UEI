@@ -45,9 +45,13 @@
 
   .dropdown-content2 a {
     color: black;
-    padding: 8px 0;
+    padding: 3px;
     text-decoration: none;
     display: block;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    background-color: #d2c19fa2;
+    border-radius: 5px;
   }
   
   .dropdown-content2 a:hover {
@@ -67,7 +71,7 @@
   }
   
   .menu-list li a span{
-    color: var(--tirth-color);
+    color: var(--sixth-color);
     margin-bottom: 5px;
   }
   
