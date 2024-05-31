@@ -98,10 +98,10 @@ font-size: 17px;
 
 .content_carusel{
   position: absolute;
-  transform: translate(3s, 3s);
+
   filter: blur(0px);
   padding: 20px 80px;
-  border-radius: 20px;
+  border-radius: 15px 50px;
   background-color: var(--primary-color-opacity);
   
   
@@ -289,6 +289,147 @@ max-width: 500px;
 @keyframes fade {
  from {opacity: .5}
  to {opacity: 2}
+}
+
+
+
+
+.eye{
+  position: none;
+}
+
+
+.custom{
+  background-color: var(--forth-color);
+  padding: 5px 15px;
+  position: fixed;
+  top: 24vh;
+  left: 92%;
+  padding-right: 40px;
+  z-index: 999;
+  font-size: 17px;
+  border-radius: 15px 2px 0px 15px;
+  filter: drop-shadow(-3px 0px 10px #646262);
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+.custom:hover{
+  background-color: #d0c5b1;  
+  filter: drop-shadow(-3px 0px 15px #646262);
+  transition: 200ms ease-in-out;
+}
+
+.toggleContainer-style button{
+  background: rgb(225 207 173 / 80%);
+  border: none;
+  padding: 5px;
+  border-radius: 15px 3px 3px 15px;
+  text-align: right;
+  border: 1px black solid;
+  margin: 2px;
+  color: var(--sixth-color);
+  transition: 200ms ease-in-out;
+}
+
+.toggleContainer-style button:hover{
+  background: rgb(251 231 193 / 80%);
+  transition: 200ms ease-in-out;
+  border: 1.5px black solid;
+}
+
+body {
+  transition: all 0.3s ease;
+}
+
+.toggleButton-2{
+  background: none;
+  border: none;
+  color: white;
+  transition: 200ms ease-in-out;
+}
+
+
+.colorblind-mode {
+  filter:grayscale(1);
+  transition: 200ms ease-in-out;
+}
+
+.vibrant-mode {
+  filter: contrast(115%) saturate(115%);
+  transition: 200ms ease-in-out;
+}
+
+.no-resize {
+  font-size: inherit !important;
+}
+
+#toggleContainer-2 {
+text-align: right;
+transition: 200ms ease-in-out;
+}
+
+#toggleContainer-2 button {
+text-align: right;
+transition: 200ms ease-in-out;
+}
+
+@media (max-width:1273px) {
+  .custom{
+  padding-right: 47px;
+  left: 89%;
+}
+
+}
+@media (max-width:1077px) {
+  .custom{
+  left: 87%;
+}
+}
+@media (max-width:1077px) {
+  .custom{
+  left: 85%;
+}
+}
+@media (max-width:825px) {
+  .custom{
+  left: 84%;
+}
+}
+@media (max-width:753px) {
+  .custom{
+  left: 82%;
+}
+}
+@media (max-width:695px) {
+  .custom{
+  left: 80%;
+}
+}
+@media (max-width:604px) {
+  .custom{
+  left: 78%;
+}
+}
+@media (max-width:545px) {
+  .custom{
+  left: 75%;
+}
+}
+@media (max-width:476px) {
+  .custom{
+  left: 72%;
+}
+}
+@media (max-width:431px) {
+  .custom{
+  left: 69%;
+}
+}
+@media (max-width:376px) {
+  .custom{
+  left: 65%;
+}
 }
 
 
