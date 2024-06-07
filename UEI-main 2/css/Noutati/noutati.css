@@ -1,0 +1,101 @@
+/* Hidden content styling */
+.hidden-content {
+  display: none;
+}
+
+/* Visible content styling */
+.show-content {
+  display: block;
+}
+
+/* Button toggle styling */
+.button-toggle {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Container for boxes */
+.container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Distance between boxes */
+  padding: 80px;
+  justify-content: center;
+}
+
+/* Individual box styling */
+.square {
+  
+  flex: 1 1 calc(33.333% - 20px); /* Width of boxes */
+  width: 460px;
+  height: 430px;
+  background:var(--secundary-color);
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #D9DBDF;
+  box-sizing: border-box;
+  transition: all 0.3s ease, height 0.5s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Hover effect for boxes */
+.square:hover {
+  transform: translate(10px, -10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Styling for images inside boxes */
+.square .image {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.square .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Mask styling for images */
+.mask {
+  clip: rect(0px, 460px, 220px, 0px);
+  position: absolute;
+}
+
+/* Title inside boxes */
+.h1 {
+  color: var(--tenth-color);
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+
+/* Paragraph inside boxes */
+p {
+  text-align: justify;
+  padding: 0 30px; /* Padding left and right */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: var(--sixth-color);
+  line-height: 18px;
+}
+
+/* Button styling */
+.button {
+  background-color: var(--tenth-color);
+  color: white;
+  width: 90px;
+  padding: 10px 18px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 20px 70px 0 30px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: 'Merriweather';
+}
