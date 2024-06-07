@@ -12,11 +12,9 @@
 }
 
 .first-box p{
-    margin: 25px 0;
     font-family: "Poppins", sans-serif;
-    margin-top: 10px;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .first-box h2{
@@ -47,3 +45,12 @@
 
     color: #8E94F2;
 }
+
+
+
+.grid-text{
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+  
+  

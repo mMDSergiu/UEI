@@ -9,13 +9,13 @@
 .stanga{
     padding-right: 20%;
     text-align: left;
+    max-width: 90%;
 }
 
 .first-box p{
-    margin: 25px 0;
     font-family: "Poppins", sans-serif;
-    margin-top: 10px;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .first-box h2{
@@ -48,5 +48,9 @@
 }
 
 
+.grid-text{
+  display: grid;
+  grid-template-columns: 150px auto;
+}
 
 

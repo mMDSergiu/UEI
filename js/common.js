@@ -1,11 +1,10 @@
-// Function to set accessibility settings in local storage
 function setAccessibilitySettings(colorblind, fontSize, vibrant) {
     localStorage.setItem('colorblindMode', colorblind);
     localStorage.setItem('fontSize', fontSize);
     localStorage.setItem('vibrantMode', vibrant);
 }
 
-// Function to get accessibility settings from local storage
+
 function getAccessibilitySettings() {
     const colorblind = localStorage.getItem('colorblindMode');
     const fontSize = localStorage.getItem('fontSize');
@@ -18,18 +17,18 @@ function getAccessibilitySettings() {
     };
 }
 
-// Function to apply accessibility settings
+
 function applyAccessibilitySettings() {
     const settings = getAccessibilitySettings();
 
-    // Apply colorblind mode
+    
     if (settings.colorblind) {
         document.body.classList.add('colorblind-mode');
     } else {
         document.body.classList.remove('colorblind-mode');
     }
 
-    // Apply font size
+    
     const fontSize = settings.fontSize;
     if (fontSize) {
         const elements = document.querySelectorAll('.changeable');
@@ -43,7 +42,7 @@ function applyAccessibilitySettings() {
         });
     }
 
-    // Apply vibrant mode
+
     if (settings.vibrant) {
         document.body.classList.add('vibrant-mode');
     } else {
@@ -51,7 +50,7 @@ function applyAccessibilitySettings() {
     }
 }
 
-// Apply accessibility settings when the page loads
+
 window.addEventListener('load', applyAccessibilitySettings);
 
 document.getElementById('mainButton-2').addEventListener('click', () => {
@@ -79,7 +78,7 @@ document.getElementById('vibrantMode').addEventListener('click', () => {
 
 document.getElementById('reset').addEventListener('click', () => {
     resetAdjustments();
-    localStorage.clear(); // Clear stored accessibility settings
+    localStorage.clear();
     closeDropdown();
 });
 

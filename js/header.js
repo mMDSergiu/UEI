@@ -154,27 +154,11 @@ document.getElementById('header').innerHTML = `
               <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ru" style="display: none;">Спонсоры</a>
               </li>
       
-              <span class="log-site">
               <li>
-              <div id="dropdown3" class="dropdown3">
-              <a class="lang-element ro" style="user-select: none;" >Activități   <p class="material-icons">expand_more</p></a>
-              <a class="lang-element en" style="display: none; user-select: none;">Activity   <p class="material-icons">expand_more</p></a>
-              <a class="lang-element ru" style="display: none; user-select: none;">Активность   <p class="material-icons">expand_more</p></a>
-              <div id="dropdown-content2" class="dropdown-content2">
-              <a class="links" href="${mainUrl2}./pages/Activitati/generale.html">
-              <span class="lang-element ro">Generale</span>
-              <span class="lang-element en" style="display: none;">General</span>
-              <span class="lang-element ru" style="display: none;">Генерал</span>
-              </a>
-              <a class="links" href="${mainUrl2}./pages/main/paginlucru.html">
-              <span class="lang-element ro">Proiecte</span>
-              <span class="lang-element en" style="display: none;">Projects</span>
-              <span class="lang-element ru" style="display: none;">Проекты</span>
-              </a>
-              </div>
-            </div>
-              </li>
-              </span>
+                              <a href="${mainUrl2}./pages/Activitati/generale.html" class="lang-element ro" style="margin-right: 15px;">Activități</a>
+                              <a href="${mainUrl2}./pages/Activitati/generale.html" class="lang-element en" style="display: none; margin-right: 15px;">Activity</a>
+                              <a href="${mainUrl2}./pages/Activitati/generale.html" class="lang-element ru" style="display: none; margin-right: 15px;">Активность</a>
+                              </li>
               
       
                       <li>
@@ -341,28 +325,17 @@ document.getElementById('header').innerHTML = `
                         </div>
                           </li>
                           </span>
-                          <span class="log-site">
-                          <li>
-                              <div id="dropdown3" class="dropdown3">
-                              <a class="lang-element ro" style="user-select: none;" >Activități   <p class="material-icons">expand_more</p></a>
-                              <a class="lang-element en" style="display: none; user-select: none;">Activity   <p class="material-icons">expand_more</p></a>
-                              <a class="lang-element ru" style="display: none; user-select: none;">Активность   <p class="material-icons">expand_more</p></a>
-                              <div id="dropdown-content2" class="dropdown-content2">
-                              <a class="links" href="${mainUrl2}./pages/Activitati/generale.html">
-                              <span class="lang-element ro">Generale</span>
-                              <span class="lang-element en" style="display: none;">General</span>
-                              <span class="lang-element ru" style="display: none;">Генерал</span>
-                              </a>
-                              <a class="links" href="${mainUrl2}./pages/main/paginlucru.html">
-                              <span class="lang-element ro">Proiecte</span>
-                              <span class="lang-element en" style="display: none;">Projects</span>
-                              <span class="lang-element ru" style="display: none;">Проекты</span>
-                              </a>
-                              </div>
-                            </div>
+                          
+
+
+                              <li>
+                              <a href="${mainUrl2}./pages/Activitati/generale.html" class="lang-element ro" style="margin-right: 15px;">Activități</a>
+                              <a href="${mainUrl2}./pages/Activitati/generale.html" class="lang-element en" style="display: none; margin-right: 15px;">Activity</a>
+                              <a href="${mainUrl2}./pages/Activitati/generale.html" class="lang-element ru" style="display: none; margin-right: 15px;">Активность</a>
                               </li>
-                              </span>
-      
+
+
+
                               <li>
                                   <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element ro" style="margin-right: 15px;">Sponsori</a>
                                   <a href="${mainUrl2}./pages/main/paginlucru.html" class="lang-element en" style="display: none; margin-right: 15px;">Sponsors</a>
